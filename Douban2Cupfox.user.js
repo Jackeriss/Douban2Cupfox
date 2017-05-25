@@ -1,9 +1,8 @@
 // ==UserScript==
-// @name         Douban2Cupfox
+// @name         在豆瓣电影页面直接搜索电影资源
 // @namespace    https://www.cupfox.com/
 // @version      0.0.1
-// @description  Portal of Douban to Cupfox
-// @description:zh-CN 豆瓣 to 茶杯狐 传送门（在豆瓣电影页面显示茶杯狐资源搜索页的直达链接）
+// @description:zh-CN 在豆瓣电影页面显示茶杯狐资源搜索页的直达链接
 // @author       Jackeriss
 // @match        *://movie.douban.com/subject/*
 // ==/UserScript==
