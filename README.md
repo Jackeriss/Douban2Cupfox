@@ -1,23 +1,12 @@
 # Douban2Cupfox
-Show IMDb ratings on Douban, and vice versa
+豆瓣 -> 茶杯狐 传送门
 
-### Douban
+### 简介
+* 在豆瓣电影页面显示茶杯狐资源搜索页的直达链接
 
-* IMDb ratings and number of voters
-* Metascore
-* Rotten Tomatoes meter and audience score
-* IMDb Top 250
+![DoubanScreenshot](https://ooo.0o0.ooo/2017/05/25/5926a12a2437f.png)
 
-![Douban Screenshot](https://github.com/JayXon/MoreMovieRatings/raw/master/douban.png)
+## 安装
+请确保您已在浏览器上安装用户脚本管理插件（如`Greasemonkey`、 `Tampermonkey`, 等）。  
 
-### IMDb
-
-* Douban ratings and number of voters
-
-![IMDb Screenshot](https://github.com/JayXon/MoreMovieRatings/raw/master/imdb.png)
-
-
-## Install
-Make sure you have a working userscript manager (`Greasemonkey`, `Tampermonkey`, etc.)
-
-Install from [Greasy Fork](https://greasyfork.org/scripts/7687-moremovieratings)
+从 [GreasyFork](https://greasyfork.org/scripts/) 安装
