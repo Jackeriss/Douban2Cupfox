@@ -8,13 +8,8 @@
 // ==/UserScript==
 
 (function () {
-    var id = 0;
     var host = location.hostname;
     if (host === 'movie.douban.com') {
-        var douban_id = location.href.match(/douban\.com\/subject\/(\d+)/)[1];
-        console.log(douban_id);
-        if (!douban_id)
-            return;
         var title = document.querySelector('title').innerText.replace(/(^\s*)|(\s*$)/g, '').replace(' (豆瓣)', '');
         var subjectwrap = document.querySelector('h1');
         var subject = document.querySelector('.year');
