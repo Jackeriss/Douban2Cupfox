@@ -17,7 +17,8 @@
             return;
         sectl = document.createElement('span');
         subjectwrap.insertBefore(sectl, subject.nextSibling);
-        sectl.insertAdjacentHTML('beforebegin', '<style>.cupfox{margin-left:5px;}.cupfox:hover{background:#fff!important;}</style>' +
+        sectl.insertAdjacentHTML('beforebegin',
+'<style>.cupfox{margin-left:5px;}.cupfox:hover{background:#fff!important;}</style>' +
 '<a href="https://www.cupfox.com/?key=' + title + '" class="cupfox" target="_blank">' +
 '<?xml version="1.0" encoding="UTF-8" standalone="no"?>' +
 '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xli' +
