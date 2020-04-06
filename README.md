@@ -4,7 +4,7 @@
 ### 简介
 * 在豆瓣电影页面显示茶杯狐资源搜索页的直达链接
 
-<img src="https://ooo.0o0.ooo/2017/05/25/5926a12a2437f.png" width=550px>
+![jmBQa6MkOf3Ww2d](https://i.loli.net/2020/04/06/jmBQa6MkOf3Ww2d.jpg)
 
 ## 安装
 请确保您已在浏览器上安装用户脚本管理插件（如`Greasemonkey`、 `Tampermonkey`等）。  
