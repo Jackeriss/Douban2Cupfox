@@ -2,7 +2,7 @@
 豆瓣 to [茶杯狐](https://www.cupfox.com) 传送门
 
 ### 功能简介
-* 安装本脚本后，豆瓣电影的标题旁会显示茶杯狐的logo，点击就可以搜索影视资源了。
+安装本脚本后，豆瓣电影的标题旁会显示茶杯狐的logo，点击就可以搜索影视资源了。
 ![jmBQa6MkOf3Ww2d](https://i.loli.net/2020/04/06/jmBQa6MkOf3Ww2d.jpg)
 
 ## 安装方法
