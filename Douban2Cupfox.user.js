@@ -2,7 +2,7 @@
 // @name         从豆瓣电影直接跳转茶杯狐搜索资源
 // @namespace    https://www.cupfox.com/
 // @version      0.0.4
-// @author       Jackeriss
+// @author       Cupfox
 // @match        *://movie.douban.com/subject/*
 // @description 茶杯狐是中国最大的影视资源聚合搜索引擎，实时聚合全网优质资源，同时支持在线、下载和字幕。豆瓣电影的标题旁会显示茶杯狐的logo，点击就可以搜索影视资源了。
 // ==/UserScript==
