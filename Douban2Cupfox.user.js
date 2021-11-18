@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         从豆瓣电影直接跳转茶杯狐搜索资源
 // @namespace    https://www.cupfox.com/
-// @version      0.0.3
+// @version      0.0.4
 // @author       Jackeriss
 // @match        *://movie.douban.com/subject/*
 // @description 茶杯狐是中国最大的影视资源聚合搜索引擎，实时聚合全网优质资源，同时支持在线、下载和字幕。豆瓣电影的标题旁会显示茶杯狐的logo，点击就可以搜索影视资源了。
@@ -20,7 +20,7 @@
         subjectwrap.insertBefore(sectl, subject.nextSibling);
         sectl.insertAdjacentHTML('beforebegin',
 `<style>.cupfox{vertical-align: middle;}.cupfox:hover{background: #fff!important;}</style>
-<a href="https://www.cupfox.com/search?key=${title}" class="cupfox" target="_blank">
+<a href="http://cupfox.jackeriss.com/search?key=${title}" class="cupfox" target="_blank">
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="32px" height="23px" viewBox="0 0 600 468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
