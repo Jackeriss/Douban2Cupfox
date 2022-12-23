@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         从豆瓣电影直接跳转茶杯狐搜索资源
 // @namespace    https://cupfox.app/
-// @version      0.0.5
+// @version      0.0.6
 // @author       Cupfox
 // @match        *://movie.douban.com/subject/*
 // @description 茶杯狐是一个影视资源聚合搜索引擎。安装脚本后豆瓣电影标题旁会显示茶杯狐的logo，点击就可以搜索影视资源了。
@@ -10,7 +10,7 @@
 (function () {
     var host = location.hostname;
     if (host === 'movie.douban.com') {
-        const title = document.querySelector('title').innerText.replace(/(^\s*)|(\s*$)/g, '').replace(' (豆瓣)', '');
+        const title = encodeURIComponent(document.querySelector('title').innerText.replace(/(^\s*)|(\s*$)/g, '').replace(' (豆瓣)', ''));
         const subjectwrap = document.querySelector('h1');
         const subject = document.querySelector('.year');
         if (!subjectwrap || !subject) {
@@ -20,7 +20,7 @@
         subjectwrap.insertBefore(sectl, subject.nextSibling);
         sectl.insertAdjacentHTML('beforebegin',
             `<style>.cupfox{vertical-align: middle;}.cupfox:hover{background: #fff!important;}</style>
-            <a href="https://cupfox.app/search?key=${title}" class="cupfox" target="_blank">
+            <a href="https://cupfox.app/s/${title}" class="cupfox" target="_blank">
             <?xml version="1.0" encoding="UTF-8" standalone="no"?>
             <svg width="32px" height="23px" viewBox="0 0 600 468" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <defs>
